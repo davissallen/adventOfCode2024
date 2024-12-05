@@ -52,6 +52,6 @@ def part2(reports):
 
 
 if __name__ == '__main__':
-    reports = parse_reports('../inputs/2.txt')
+    reports = parse_reports('input.txt')
     print('part 1: ' + str(part1(reports)))
     print('part 2: ' + str(part2(reports)))

@@ -44,7 +44,7 @@ def part2(commands):
 
 
 if __name__ == '__main__':
-    commands = open('../inputs/3.txt', 'r').readlines()
+    commands = open('input.txt', 'r').readlines()
 
     print('part1: ' + str(part1(commands)))
     print('part2: ' + str(part2(commands)))

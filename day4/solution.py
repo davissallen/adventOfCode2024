@@ -82,7 +82,7 @@ def solve_part2(word_search):
 
 
 if __name__ == '__main__':
-    word_search = parse_input('../inputs/4.txt')
+    word_search = parse_input('input.txt')
 
     print('part1: ' + str(solve_part1(word_search)))
     print('part2: ' + str(solve_part2(word_search)))

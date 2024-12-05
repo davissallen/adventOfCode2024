@@ -31,7 +31,7 @@ def part_2(left_nums, right_nums):
 
 
 if __name__ == '__main__':
-    left_nums, right_nums = get_left_and_right_nums_sorted('../inputs/1.txt')
+    left_nums, right_nums = get_left_and_right_nums_sorted('input.txt')
 
     assert len(left_nums) == len(right_nums)
 
